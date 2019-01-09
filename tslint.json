@@ -1,0 +1,40 @@
+{
+  "defaultSeverity": "warn",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-react"
+  ],
+  "jsRules": {},
+  "rules": {
+    "max-classes-per-file": [true, 1],
+    "indent": true,
+    "ordered-imports": true,
+    "semicolon": [true, "always"],
+    "object-curly-spacing": [true, "never"],
+    "array-bracket-spacing": [true, "never"],
+    "space-in-parens": [true, "never"],
+    "space-before-function-paren": [true, {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "arrow-parens": false,
+    "no-console": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false,
+    "no-empty-interface": true,
+    "no-trailing-whitespace": true,
+    "max-line-length": [false, 0],
+    "quotemark": ["single", "jsx-double"],
+    "jsx-wrap-multiline": true,
+    "jsx-space-before-trailing-slash": true,
+    "member-access": true,
+    "forin": false,
+    "member-ordering": true
+  },
+  "rulesDirectory": []
+}
