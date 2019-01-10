@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {View} from 'react-native';
 import Color from '../../constant/Color';
-import {OnTabEvent} from '../../screen/service/onTabEvent';
+import {OnTabEvent} from '../../service/event/onTabEvent';
 import FirstTabScreen from '../../screen/tab/FirstTabScreen';
 import NoticeScreen from '../../screen/tab/NoticeScreen';
 import SettingScreen from '../../screen/tab/SettingScreen';

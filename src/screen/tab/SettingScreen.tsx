@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Alert, Button, FlatList, SafeAreaView, Text, TextInput, View} from 'react-native';
 import Color from '../../constant/Color';
-import {ITodo, TodoDB} from '../db/broadcastSound';
+import {ITodo, TodoDB} from '../../service/event/db/todoDb';
 
 interface IState {
   todoInput: string;

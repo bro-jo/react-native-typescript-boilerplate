@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Alert, FlatList, SafeAreaView, Text, View} from 'react-native';
 import Color from '../../constant/Color';
-import {OnTabEvent} from '../service/onTabEvent';
+import {OnTabEvent} from '../../service/event/onTabEvent';
 
 interface INotice {
   title: string;
